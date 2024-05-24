@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.sign_section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.logo_part {
+    width: 40%;
+    height: 100%;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.image {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: hsla(71, 31%, 56%, 0.7);
+    top: 128px;
+}
+
+.image img {
+    width: 15%;
+    padding: 16px 0 16px 0;
+}
+
+.sign_form {
+    width: 60%;
+}
+
+.sign_text {
+    padding: 0 32px 0 32px;
+}
