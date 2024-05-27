@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Open Sans";
 }
 
 html,
@@ -27,19 +30,91 @@ body {
     display: flex;
     position: relative;
     justify-content: center;
-    background-color: hsla(71, 31%, 56%, 0.7);
     top: 128px;
 }
 
 .image img {
-    width: 15%;
-    padding: 16px 0 16px 0;
+    width: 50%;
+    padding: 4px 0 4px 0;
 }
 
 .sign_form {
+  background-color: hsla(71, 20%, 20%, 0.04);
     width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.sign_text {
-    padding: 0 32px 0 32px;
+.sign_form form h2 {
+  font-weight: 650;
+  font-size: 28px;
+}
+
+.sign_text h1 {
+  font-weight: 650;
+  font-size: 28px;
+  line-height: 2.45rem;
+  width: 56ch;
+  padding: 8% 2rem 8% 2rem;
+}
+
+form {
+  background-color: white;
+  padding: 2rem 64px;
+}
+
+form label {
+  color: hsla(71, 20%, 20%, 1)
+}
+
+
+.form_row1, .form_row2, .form_row3 {
+  padding: 1rem 0 0 0;
+  display: flex;
+  gap: 12%;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.form_row1 div, .form_row2 div, .form_row3 div {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+form input {
+  border: 1px solid hsla(71, 20%, 20%, 0.2);
+  border-radius: 0.2rem;
+  background-color: hsla(71, 20%, 20%, 0.01);
+  width: 20rem;
+  height: 1.8rem;
+  font-size: 16px;
+}
+
+.form_buttons {
+  gap: 0.8rem;
+  padding: 2rem 0 0 64px;
+}
+
+.primary_button {
+  width: fit-content;
+  background-color: hsl(92, 20%, 35%);
+  color: white;
+  border: none;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.form_buttons p {
+  padding: 0.8rem 0 0 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form_buttons a {
+  text-decoration: none;
+  color: hsl(92, 20%, 35%);
 }
