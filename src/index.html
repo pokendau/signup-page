@@ -27,36 +27,67 @@
           <div class="form_row1">
             <div>
               <label for="first_name">FIRST NAME</label>
-              <input name="first_name" type="text" placeholder="" />
+              <input
+                class="form_input"
+                name="first_name"
+                type="text"
+                placeholder=""
+              />
+              <span class="error_message">Invalid value</span>
             </div>
             <div>
               <label for="last_name">LAST NAME</label>
-              <input name="last_name" type="text" placeholder="" />
+              <input
+                class="form_input"
+                name="last_name"
+                type="text"
+                placeholder=""
+              /><span class="error_message">Invalid value</span>
             </div>
           </div>
           <div class="form_row2">
             <div>
               <label for="email">EMAIL</label>
-              <input name="email" type="text" placeholder="" />
+              <input
+                class="form_input"
+                name="email"
+                type="email"
+                placeholder=""
+              /><span class="error_message">Invalid value</span>
             </div>
             <div>
               <label for="phone_number">PHONE NUMBER</label>
-              <input name="phone_number" type="text" placeholder="" />
+              <input
+                class="form_input"
+                name="phone_number"
+                type="text"
+                placeholder=""
+              /><span class="error_message">Invalid value</span>
             </div>
           </div>
           <div class="form_row3">
             <div>
               <label for="password">PASSWORD</label
-              ><input name="password" type="password" />
+              ><input class="form_input" name="password" type="password" /><span
+                class="error_message"
+                >Invalid value</span
+              >
             </div>
             <div>
               <label for="confirm_password">CONFIRM PASSWORD</label
-              ><input name="confirm_password" type="password" />
+              ><input
+                class="form_input"
+                name="confirm_password"
+                type="password"
+              />
+              <span class="error_message">Invalid value</span>
             </div>
           </div>
         </form>
         <div class="form_buttons">
-          <button class="primary_button">Create Account</button>
+          <button id="submit_button" class="primary_button">
+            Create Account
+          </button>
           <p>Already have an account? <a href="#">Log In</a></p>
         </div>
       </div>
