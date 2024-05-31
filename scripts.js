@@ -49,7 +49,7 @@ submitButton.addEventListener("click", (event) => {
         errorMessages[3].style.display = "block";
       } else {
         element.classList.remove("invalid_input");
-        errorMessages[2].style.display = "none";
+        errorMessages[3].style.display = "none";
       }
     } else if (element.name === "password") {
       if (element.value === "") {
